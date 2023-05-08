@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="heading">Administrator? Get Started Now!</h1>
+        <div class="line"></div>
+    </header>
+    <div class="format">
+        <form class="form">
+            <div class="flex-container">
+                <div class="a">
+                    <label class="label" for="firstname">First<span class="astreik">*</span></label><br>
+                    <input class="input" type="text" id="firstname" name="firstname" required>
+                </div>
+                <div class="a">
+                    <label class="label" for="lastname">Last<span class="astreik">*</span></label><br>
+                    <input class="input" type="text" id="lastname" name="lastname" required>
+                </div>
+                <div id="b">
+                    <label class="label" for="title">Your Title<span class="astreik">*</span></label><br>
+                    <input class="input" type="text" id="title" name="title" required>
+                </div>
+                <div id="c">
+                    <label class="label" for="emailId">Your Email<span class="astreik">*</span></label><br>
+                    <input class="input" type="email" id="emailId" name="emailId" required>
+                </div>
+                <div id="d">
+                    <label class="label" for="school">School Name<span class="astreik">*</span></label><br>
+                    <input class="input" type="text" id="school" name="school" required>
+                </div>
+            </div>
+            <div class="form-line"></div>
+            <label class="label" for="option">When do you plan to use Involvio?<span
+                    class="astreik">*</span></label><br>
+            <div id="flex-container-down">
+                <div>
+                    <input class="input1" type="radio" id="orientation" name="purpose" value="Orientation">
+                    <label class="label" for="orientation">Orientation</label>
+                </div>
+
+                <div>
+                    <input class="input1" type="radio" id="school" name="purpose" value="School Year">
+                    <label class="label" for="school">School Year</label>
+                </div>
+
+                <div>
+                    <input class="input1" type="radio" id="both" name="purpose" value="Both">
+                    <label class="label" for="both">Both</label>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
