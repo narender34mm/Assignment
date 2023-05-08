@@ -120,5 +120,13 @@
         width: 80%;
     
     }
+    .flex-container>div {
+
+        width: 370px;
+        margin: 10px;
+     
+     
+     }
+    
     
 }
