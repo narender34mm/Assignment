@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+  
+}
+
+body{
+    background-color: black;
+}
+header{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-weight: bolder;
+}
+h4{
+    font-weight: lighter;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 200px;
+}
+.box{
+    border: 3px solid white;
+    margin: 4px;
+    width: 90px;
+    height:100px;
+    padding: 10px;
+    color: peru;
+    
+}
+.none{
+    border: none;
+}
+
+.first{
+    border-color: rgb(245, 245, 45);
+    color: rgb(245, 245, 45);
+}
+.first:hover{
+    background-color: rgb(245, 245, 45);
+    color: black;
+   
+
+}
+.second{
+    border-color: rgb(146, 146, 255);
+    color: rgb(146, 146, 255);
+}
+.second:hover{
+    background-color: rgb(146, 146, 255);
+    color: black;
+}
+.third{
+    border-color: yellowgreen;
+    color: yellowgreen;
+}
+.third:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+.fourth{
+    border-color: rgb(248, 75, 75);
+    color: rgb(248, 75, 75);
+}
+.fourth:hover{
+    background-color:rgb(248, 75, 75);
+    color: black;
+}
+.box:hover{
+    cursor:pointer;
+    transform: scale(1.1,1.1);
+
+}
+b{
+    font-size: xx-large;
+
+}
+span{
+    font-weight: lighter;
+}
+@media screen  and (max-width:768px){
+
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px 50px;
+    }
+    .box{
+        margin: 4px;
+        width: 90px;
+        height:100px;
+        
+    }
+    .none{
+        display: none;
+    }
+
+    
+}
