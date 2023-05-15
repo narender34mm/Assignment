@@ -1,5 +1,8 @@
 *{
     box-sizing: border-box;
+    
+}
+body{
     background-color: rgb(203, 224, 231);
 }
 
@@ -33,17 +36,19 @@ input{
     padding-left: 20px;
     font-size: large;
     font-style: italic;
+    text-align: center;
+    
 
 }
 
-.r1,.r5,.r7,.r7,#a7{
+.r1,.r7,#a7{
     border-radius: 30px;
 }
 
-.r2,#a2,#a4,.r6,#a6,.r8,#a8,#a10{
+.r2,.r6,#a2,#a4,#a6,.r8,#a8,#a10{
     border-radius: 5px;
 }
-.r3,.r9{
+.r3,.r5,.r9{
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
@@ -93,6 +98,8 @@ i{
 .absolute:hover{
     cursor: pointer;
 }
+
+
 
 @media screen and (max-width:280px){
 
