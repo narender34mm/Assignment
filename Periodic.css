@@ -22,6 +22,7 @@ h4{
     display: flex;
     flex-wrap: wrap;
     margin: 50px 200px;
+    justify-content: space-around;
 }
 .box{
     border: 3px solid white;
@@ -82,12 +83,56 @@ b{
 span{
     font-weight: lighter;
 }
+
+.flex-container1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 200px;
+    justify-content: center;
+
+}
+.flex-container1>div,.tell>div{
+    color: white;
+    margin: 10px;
+    
+}
+.tell{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 200px;
+    justify-content: center;
+}
+
+.flex-container1 span{
+    padding: 0px 8px;
+    margin: 5px;
+}
+.tell>div{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.co1{
+    background-color: rgb(245, 245, 45);
+}
+.co2{
+    background-color: yellowgreen;
+}
+.co3{
+    background-color: rgb(146, 146, 255);
+}
+.co4{
+    background-color: rgb(248, 75, 75);
+}
+
 @media screen  and (max-width:768px){
 
     .flex-container{
         display: flex;
         flex-wrap: wrap;
         margin: 10px 50px;
+        justify-content: space-evenly;
     }
     .box{
         margin: 4px;
@@ -97,6 +142,13 @@ span{
     }
     .none{
         display: none;
+    }
+    .flex-container1,.tell{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        margin:30px;
     }
 
     
